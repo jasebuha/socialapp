@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58CF2A951E69C77C007587AF /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CF2A941E69C77C007587AF /* FeedVC.swift */; };
 		58E815161E68F20F001BB69C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E815151E68F20F001BB69C /* AppDelegate.swift */; };
 		58E815181E68F20F001BB69C /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E815171E68F20F001BB69C /* SignInVC.swift */; };
 		58E8151B1E68F20F001BB69C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E815191E68F20F001BB69C /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		0E72D8B195568171FF9FA85E /* Pods-socialapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socialapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-socialapp/Pods-socialapp.release.xcconfig"; sourceTree = "<group>"; };
+		58CF2A941E69C77C007587AF /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		58E815121E68F20F001BB69C /* socialapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socialapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E815151E68F20F001BB69C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58E815171E68F20F001BB69C /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -87,9 +89,9 @@
 				58E815291E68F453001BB69C /* Model */,
 				58E8152A1E68F45A001BB69C /* View */,
 				58E8152B1E68F460001BB69C /* Controller */,
-				58E815151E68F20F001BB69C /* AppDelegate.swift */,
-				58E815191E68F20F001BB69C /* Main.storyboard */,
 				58E8151C1E68F20F001BB69C /* Assets.xcassets */,
+				58E815191E68F20F001BB69C /* Main.storyboard */,
+				58E815151E68F20F001BB69C /* AppDelegate.swift */,
 				58E8151E1E68F20F001BB69C /* LaunchScreen.storyboard */,
 				58E815211E68F20F001BB69C /* Info.plist */,
 				58E815271E68F284001BB69C /* GoogleService-Info.plist */,
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				58E815171E68F20F001BB69C /* SignInVC.swift */,
+				58CF2A941E69C77C007587AF /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				58E815181E68F20F001BB69C /* SignInVC.swift in Sources */,
 				58E815321E6905AE001BB69C /* RoundBtn.swift in Sources */,
 				58E815161E68F20F001BB69C /* AppDelegate.swift in Sources */,
+				58CF2A951E69C77C007587AF /* FeedVC.swift in Sources */,
 				58E8152D1E6903FC001BB69C /* FancyView.swift in Sources */,
 				58E815301E69046D001BB69C /* Constants.swift in Sources */,
 				58E815361E6907A2001BB69C /* FancyBtn.swift in Sources */,
