@@ -90,6 +90,9 @@
                                 <state key="normal" title="Sign in">
                                     <color key="titleColor" red="0.3064499383" green="0.30835372" blue="0.38635316279999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="signInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W60-8i-ChY"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WqR-uk-xHb" customClass="FancyField" customModule="socialapp" customModuleProvider="target">
                                 <rect key="frame" x="62.5" y="419" width="250" height="40"/>
@@ -124,6 +127,10 @@
                             <constraint firstItem="DyO-bX-YgU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xKe-JS-JUQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="vxH-AM-Paz" id="Uv7-J9-pVZ"/>
+                        <outlet property="pwdField" destination="WqR-uk-xHb" id="Z4g-QD-YIC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
